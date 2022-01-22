@@ -1,0 +1,92 @@
+.test{
+    visibility: hidden;
+}
+.test2{
+    visibility: hidden;
+}
+.test3{
+    visibility: hidden;
+}
+.test4{
+    visibility: hidden;
+}
+.test5{
+    visibility: hidden;
+}
+.test6{
+    visibility: hidden;
+}
+.test7{
+    visibility: hidden;
+}
+.test8{
+    visibility: hidden;
+}
+.maindiv{
+    position: absolute;
+    height: auto;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    background: rgb(0,50,100);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(49,49,144,1) 50%, rgba(49,144,163,1) 100%);
+}
+.spacerbox{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+.menuinfo{
+    text-align: center;
+    padding:0px;
+    margin:0px;
+    color: whitesmoke;
+
+}
+body{
+    font-family: sans-serif;
+    margin: 20px 40px;
+}
+#mainbox{
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .6s;
+    color: whitesmoke;
+}
+.menutitle{
+    margin: 40px 60px;
+    font-family: sans-serif;
+    font-size: 26px;
+    color: white;
+}
+.sidemenu{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 0px;
+    background-color: #07074b;
+    z-index: 1;
+    padding-top: 100px;
+    overflow-x: hidden;
+    transition: all .5s;
+}
+.sidemenu a{
+    padding: 8px 8px 8px 64px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #999;
+    display: block;
+}
+.sidemenu a:hover{
+    color: antiquewhite;
+}
+.sidemenu .closebtn{
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 32px;
+}
