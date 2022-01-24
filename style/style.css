@@ -1,20 +1,25 @@
 body{
     font-family: sans-serif;
     margin: 20px 40px;}
-.items{
-    margin: 17px;
-    overflow: hidden;
 
-}
+
 .divItems{
-    position: absolute;
-    color: whitesmoke;
-
-
+    position: relative;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+    float: left;
+    width: 136px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 50px;
+    color: white;
+    visibility: hidden;
 }
+
 .mainDiv{
     position: absolute;
-    height: auto;
     bottom: 0;
     top: 0;
     left: 0;
@@ -28,13 +33,13 @@ body{
     text-align: center;
     font-family: sans-serif;
     position: absolute;
-    margin-top: 350px;
+    margin-top: 450px;
     margin-left: 50px;
 }
 .menuInfo{
     text-align: center;
-    padding:0px;
-    margin:0px;
+    padding:0;
+    margin:0;
     color: whitesmoke;
 
 }
@@ -45,17 +50,18 @@ body{
     color: whitesmoke;
 }
 .menuTitle{
-    margin: 40px 60px;
+    text-align: center;
+    position: relative;
     font-family: sans-serif;
-    font-size: 26px;
+    font-size: 20px;
     color: whitesmoke;
 }
 .sideMenu{
     position: fixed;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     height: 100%;
-    width: 0px;
+    width: 0;
     background-color: #07074b;
     z-index: 1;
     padding-top: 100px;
@@ -64,7 +70,7 @@ body{
 }
 .closeBtn{
     position: absolute;
-    top: 0px;
+    top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 32px;
